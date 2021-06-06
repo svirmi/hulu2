@@ -11,23 +11,23 @@ export default {
     },
     fetchActionMovies: {
         title: 'Action',
-        url: `/discover/movie?api_key=$=${API_KEY}&with_genres=28`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=28`
     }, 
     fetchComedyMovies: {
         title: 'Comedy',
-        url: `/discover/movie?api_key=$=${API_KEY}&with_genres=35`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=35`
     }, 
     fetchHorrorMovies: {
         title: 'Horror',
-        url: `/discover/movie?api_key=$=${API_KEY}&with_genres=27`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=27`
     }, 
     fetchRommanceMovies: {
         title: 'Rommance',
-        url: `/discover/movie?api_key=$=${API_KEY}&with_genres=10749`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`
     }, 
     fetchMystery: {
         title: 'Mystery',
-        url: `/discover/movie?api_key=$=${API_KEY}&with_genres=9648`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`
     }, 
     fetchSciFi: {
         title: 'Sci-Fi',
